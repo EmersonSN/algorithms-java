@@ -39,7 +39,7 @@ public class Exercice3 {
 			}
 		}
 
-		double avg = ((double)plusSixteen / n) * 100.0;
+		double avg = (double)plusSixteen * 100.0 / n;
 		
 		System.out.printf("Altura média: %.2f%n", sum / n);
 		System.out.printf("Pessoas com menos de 16 anos: %.1f%%n", avg );

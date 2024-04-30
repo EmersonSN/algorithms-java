@@ -16,6 +16,7 @@ public class ListExample {
 		list.add(2, "Marcos");
 		list.add("Emerson");
 		list.add("Everton");
+		list.add(333, "Maria Brown");
 
 		System.out.println(list.size());
 
